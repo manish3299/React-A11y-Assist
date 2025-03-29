@@ -1,10 +1,16 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.tsx'
+// src/hocs/withA11y.tsx
+import React, { ComponentType } from "react";
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+type A11yProps = {
+  role?: string;
+  "aria-label"?: string;
+  tabIndex?: number;
+};
+
+function withA11y<T extends object>(Component: ComponentType<T>) {
+  return (props: T & A11yProps) => {
+    return <Component {...props} tabIndex={0} />;
+  };
+}
+
+export default withA11y;
