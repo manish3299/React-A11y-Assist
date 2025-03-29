@@ -1,13 +1,17 @@
-import React from "react";
-import withA11y from "./hocs/withA11y";
-
-const Button = withA11y((props: any) => <button {...props}>Click Me</button>);
+import React, { useState } from "react";
+import { useKeyboardNavigation } from "./hooks/useKeyboardNavigation";
 
 function App() {
+  const [message, setMessage] = useState("Use arrow keys!");
+
+  useKeyboardNavigation((event) => {
+    setMessage(`Pressed: ${event.key}`);
+  });
+
   return (
     <div>
-      <h1>React A11Y - v0.1</h1>
-      <Button aria-label="Accessible Button" />
+      <h1>React A11Y - v0.2</h1>
+      <p>{message}</p>
     </div>
   );
 }
