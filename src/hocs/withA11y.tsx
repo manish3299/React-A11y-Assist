@@ -1,4 +1,3 @@
-// src/hocs/withA11y.tsx
 import React, { ComponentType } from "react";
 
 type A11yProps = {
