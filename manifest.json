@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "React A11Y DevTools",
+  "version": "1.0.0",
+  "description": "Chrome DevTools extension for React A11Y.",
+  "devtools_page": "public/devtools.html",
+  "icons": {
+    "48": "public/icon.png"
+  },
+  "permissions": ["storage"]
+}
