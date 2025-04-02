@@ -7,9 +7,7 @@ export function useRTL() {
     document.documentElement.setAttribute("dir", isRTL ? "rtl" : "ltr");
   }, [isRTL]);
 
-  const toggleRTL = () => {
-    setIsRTL((prev) => !prev);
-  };
+  const toggleRTL = () => setIsRTL((prev) => !prev);
 
   return { isRTL, toggleRTL };
 }

@@ -1,8 +1,8 @@
 {
   "name": "react-a11y-assist",
   "private": false,
-  "version": "1.4.0",
-  "description": "React A11Y Library with RTL support and Lighthouse A11Y instructions",
+  "version": "2.0.0",
+  "description": "React A11Y Library with voice commands and Chrome DevTools extension",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
