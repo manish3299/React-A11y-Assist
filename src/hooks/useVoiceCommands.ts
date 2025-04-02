@@ -2,7 +2,6 @@ import { useEffect } from "react";
 
 export function useVoiceCommands() {
   useEffect(() => {
-    // Use the SpeechRecognition API (with vendor prefixes as needed)
     const SpeechRecognition =
       (window as any).SpeechRecognition ||
       (window as any).webkitSpeechRecognition;
@@ -17,7 +16,7 @@ export function useVoiceCommands() {
     recognition.interimResults = false;
     recognition.lang = "en-US";
 
-    recognition.onresult = (event: SpeechRecognitionEvent) => {
+    recognition.onresult = (event: any) => {
       let transcript = "";
       for (let i = event.resultIndex; i < event.results.length; i++) {
         transcript += event.results[i][0].transcript;
@@ -38,6 +37,7 @@ export function useVoiceCommands() {
 
     recognition.start();
 
+    // Clean up when component unmounts
     return () => {
       recognition.stop();
     };
