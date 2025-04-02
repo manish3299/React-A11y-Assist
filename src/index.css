@@ -62,3 +62,14 @@ button:hover {
 .hidden {
   display: none;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+html[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
