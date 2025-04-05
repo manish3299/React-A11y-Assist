@@ -12,6 +12,10 @@ Make your apps more inclusive with accessible components, hooks, and voice inter
 
 ---
 
+
+
+
+
 ## 🚀 Quick Start
 
 Install the package:
@@ -42,6 +46,10 @@ yarn add react-a11y-assist
 
 **v1.0** - _Voice command interaction via Web Speech API + Chrome DevTools Extension_
 
+
+
+
+
 ## 🌟 Why react-a11y-assist?
 
 **Your zero-setup accessibility companion for React.**
@@ -66,6 +74,10 @@ Here's what sets it apart:
 
 ✅ **Open-source & Extensible** – MIT licensed, easily customizable, and community-driven
 
+
+
+
+
 ## 📦 Usage Examples
 
 **1. Wrapping components with withA11y HOC**
@@ -83,6 +95,8 @@ export default function App() {
   );
 }
 ```
+
+
 
 **2. Managing focus with useKeyboardNavigation**
 
@@ -104,6 +118,9 @@ export default function Menu() {
 }
 ```
 
+
+
+
 **3. Using the Modal Component**
 
 ```javascript
@@ -124,6 +141,9 @@ export default function App() {
 }
 ```
 
+
+
+
 **4. Accessible Button**
 
 ```javascript
@@ -137,6 +157,9 @@ export default function ButtonDemo() {
   );
 }
 ```
+
+
+
 
 **5. Voice Commands with useVoiceCommands**
 
@@ -153,6 +176,9 @@ export default function VoiceDemo() {
 }
 ```
 
+
+
+
 ## 🧪 Testing
 
 React-A11y-Assist is tested with Vitest and React Testing Library.
@@ -161,6 +187,9 @@ React-A11y-Assist is tested with Vitest and React Testing Library.
 npm run test
 
 ```
+
+
+
 
 # 🤝 Contributing
 
@@ -189,8 +218,13 @@ git push origin feature/my-feature
 
 **5. Open a Pull Request 🚀**
 
+
+
+
 ## 📄 License
 
 **MIT ©** [@manish3299](https://github.com/manish3299)
+
+
 
 **Built with 💙 to make the web more inclusive.**
