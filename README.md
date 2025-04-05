@@ -50,21 +50,21 @@ _React-a11y-assist isn't just another UI library — it’s a toolkit designed f
 
 Here's what sets it apart:
 
-✅ No dependencies – Works out of the box with your existing React app
+✅ **No dependencies** – Works out of the box with your existing React app
 
-✅ Voice command support – Integrates with the Web Speech API for hands-free navigation
+✅ **Voice command support** – Integrates with the Web Speech API for hands-free navigation
 
-✅ Developer-first DX – Lightweight, TypeScript-native, and tree-shakable
+✅ **Developer-first DX** – Lightweight, TypeScript-native, and tree-shakable
 
-✅ Lighthouse-Ready – Helps pass accessibility audits with minimal effort
+✅ **Lighthouse-Ready** – Helps pass accessibility audits with minimal effort
 
-✅ RTL Support – Right-to-left layouts with just one hook
+✅ **RTL Support** – Right-to-left layouts with just one hook
 
-✅ HOCs + Hooks + Components – Flexible APIs to match your coding style
+✅ **HOCs + Hooks + Components** – Flexible APIs to match your coding style
 
-✅ DevTools Friendly – Built for future integration with Chrome Extensions
+✅ **DevTools Friendly** – Built for future integration with Chrome Extensions
 
-✅ Open-source & Extensible – MIT licensed, easily customizable, and community-driven
+✅ **Open-source & Extensible** – MIT licensed, easily customizable, and community-driven
 
 ## 📦 Usage Examples
 
