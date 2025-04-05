@@ -32,15 +32,15 @@ yarn add react-a11y-assist
 
 **Version Features**
 
-v0.1 - Higher-Order Components (HOC) like withA11y for semantic accessibility
+**v0.1** - _Higher-Order Components (HOC) like withA11y for semantic accessibility_
 
-v0.2 - Hooks: useKeyboardNavigation, useRTL for enhanced keyboard support
+**v0.2** - _Hooks: useKeyboardNavigation, useRTL for enhanced keyboard support_
 
-v0.3 - Accessible UI components like Modal, AccessibleButton
+**v0.3** - _Accessible UI components like Modal, AccessibleButton_
 
-v0.4 - RTL support & automated Lighthouse a11y audit hooks
+**v0.4** - _RTL support & automated Lighthouse a11y audit hooks_
 
-v1.0 - Voice command interaction via Web Speech API + Chrome DevTools Extension
+**v1.0** - _Voice command interaction via Web Speech API + Chrome DevTools Extension_
 
 ## 🌟 Why react-a11y-assist?
 
@@ -68,7 +68,7 @@ Here's what sets it apart:
 
 ## 📦 Usage Examples
 
-1. Wrapping components with withA11y HOC
+**1. Wrapping components with withA11y HOC**
 
 ```javascript
 import withA11y from "react-a11y-assist/hocs/withA11y";
@@ -84,7 +84,7 @@ export default function App() {
 }
 ```
 
-2. Managing focus with useKeyboardNavigation
+**2. Managing focus with useKeyboardNavigation**
 
 ```javascript
 import { useRef } from "react";
@@ -104,7 +104,7 @@ export default function Menu() {
 }
 ```
 
-3. Using the Modal Component
+**3. Using the Modal Component**
 
 ```javascript
 import Modal from "react-a11y-assist/components/Modal";
@@ -124,7 +124,7 @@ export default function App() {
 }
 ```
 
-4. Accessible Button
+**4. Accessible Button**
 
 ```javascript
 import AccessibleButton from "react-a11y-assist/components/AccessibleButton";
@@ -138,7 +138,7 @@ export default function ButtonDemo() {
 }
 ```
 
-5. Voice Commands with useVoiceCommands
+**5. Voice Commands with useVoiceCommands**
 
 ```javascript
 import useVoiceCommands from "react-a11y-assist/hooks/useVoiceCommands";
@@ -166,28 +166,28 @@ npm run test
 
 **We 💙 contributions!**
 
-1. Fork the repo
+**1. Fork the repo**
 
-2. Create a branch
+**2. Create a branch**
 
 ```bash
  git checkout -b feature/my-feature
 
 ```
 
-3. Commit your changes
+**3. Commit your changes**
 
 ```bash
 git commit -m "feat: add new feature"
 ```
 
-4. Push to GitHub
+**4. Push to GitHub**
 
 ```bash
 git push origin feature/my-feature
 ```
 
-5. Open a Pull Request 🚀
+**5. Open a Pull Request 🚀**
 
 ## 📄 License
 
