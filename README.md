@@ -6,6 +6,9 @@ Make your apps more inclusive with accessible components, hooks, and voice inter
 
 [![npm version](https://img.shields.io/npm/v/react-a11y-assist.svg)](https://www.npmjs.com/package/react-a11y-assist)
 
+[![Discuss on GitHub](https://img.shields.io/badge/Discuss-GitHub%20Discussions-blue?logo=github)](https://github.com/manish3299/React-A11y-Assist/discussions)
+
+
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 [![Build](https://img.shields.io/github/workflow/status/manish3299/react-a11y-assist/CI)](https://github.com/manish3299/react-a11y-assist/actions)
