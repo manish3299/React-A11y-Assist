@@ -1,0 +1,25 @@
+# Dependency folders
+node_modules
+dist
+build
+coverage
+
+# Package managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Config and log files
+.env
+.env.local
+.env.*.local
+*.log
+*.tsbuildinfo
+
+# IDE settings
+.vscode
+.idea
+
+# Compiled output
+out
+.next
