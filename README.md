@@ -8,16 +8,11 @@ Make your apps more inclusive with accessible components, hooks, and voice inter
 
 [![Discuss on GitHub](https://img.shields.io/badge/Discuss-GitHub%20Discussions-blue?logo=github)](https://github.com/manish3299/React-A11y-Assist/discussions)
 
-
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 [![Build](https://img.shields.io/github/workflow/status/manish3299/react-a11y-assist/CI)](https://github.com/manish3299/react-a11y-assist/actions)
 
 ---
-
-
-
-
 
 ## 🚀 Quick Start
 
@@ -49,10 +44,6 @@ yarn add react-a11y-assist
 
 **v1.0** - _Voice command interaction via Web Speech API + Chrome DevTools Extension_
 
-
-
-
-
 ## 🌟 Why react-a11y-assist?
 
 **Your zero-setup accessibility companion for React.**
@@ -77,18 +68,14 @@ Here's what sets it apart:
 
 ✅ **Open-source & Extensible** – MIT licensed, easily customizable, and community-driven
 
-
-
-
-
 ## 📦 Usage Examples
 
 **1. Wrapping components with withA11y HOC**
 
 ```javascript
-import withA11y from "react-a11y-assist/hocs/withA11y";
+import withA11y from 'react-a11y-assist/hocs/withA11y';
 
-const AccessibleSection = withA11y("section");
+const AccessibleSection = withA11y('section');
 
 export default function App() {
   return (
@@ -99,13 +86,11 @@ export default function App() {
 }
 ```
 
-
-
 **2. Managing focus with useKeyboardNavigation**
 
 ```javascript
-import { useRef } from "react";
-import useKeyboardNavigation from "react-a11y-assist/hooks/useKeyboardNavigation";
+import { useRef } from 'react';
+import useKeyboardNavigation from 'react-a11y-assist/hooks/useKeyboardNavigation';
 
 export default function Menu() {
   const listRef = useRef < HTMLUListElement > null;
@@ -121,13 +106,10 @@ export default function Menu() {
 }
 ```
 
-
-
-
 **3. Using the Modal Component**
 
 ```javascript
-import Modal from "react-a11y-assist/components/Modal";
+import Modal from 'react-a11y-assist/components/Modal';
 
 export default function App() {
   const [open, setOpen] = useState(false);
@@ -144,43 +126,30 @@ export default function App() {
 }
 ```
 
-
-
-
 **4. Accessible Button**
 
 ```javascript
-import AccessibleButton from "react-a11y-assist/components/AccessibleButton";
+import AccessibleButton from 'react-a11y-assist/components/AccessibleButton';
 
 export default function ButtonDemo() {
-  return (
-    <AccessibleButton onClick={() => alert("Clicked!")}>
-      Click Me
-    </AccessibleButton>
-  );
+  return <AccessibleButton onClick={() => alert('Clicked!')}>Click Me</AccessibleButton>;
 }
 ```
-
-
-
 
 **5. Voice Commands with useVoiceCommands**
 
 ```javascript
-import useVoiceCommands from "react-a11y-assist/hooks/useVoiceCommands";
+import useVoiceCommands from 'react-a11y-assist/hooks/useVoiceCommands';
 
 export default function VoiceDemo() {
   useVoiceCommands({
-    hello: () => alert("Hello there!"),
-    goodbye: () => alert("Goodbye!"),
+    hello: () => alert('Hello there!'),
+    goodbye: () => alert('Goodbye!'),
   });
 
   return <p>Say "hello" or "goodbye" to trigger commands</p>;
 }
 ```
-
-
-
 
 ## 🧪 Testing
 
@@ -190,9 +159,6 @@ React-A11y-Assist is tested with Vitest and React Testing Library.
 npm run test
 
 ```
-
-
-
 
 # 🤝 Contributing
 
@@ -221,13 +187,8 @@ git push origin feature/my-feature
 
 **5. Open a Pull Request 🚀**
 
-
-
-
 ## 📄 License
 
 **MIT ©** [@manish3299](https://github.com/manish3299)
-
-
 
 **Built with 💙 to make the web more inclusive.**

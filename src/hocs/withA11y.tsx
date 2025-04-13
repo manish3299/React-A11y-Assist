@@ -1,8 +1,8 @@
-import { ComponentType } from "react";
+import { ComponentType } from 'react';
 
 type A11yProps = {
   role?: string;
-  "aria-label"?: string;
+  'aria-label'?: string;
   tabIndex?: number;
 };
 
