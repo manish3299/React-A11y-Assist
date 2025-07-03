@@ -1,4 +1,4 @@
-# React-a11y-assist
+# React-A11y-assist
 
 **Developer-first accessibility toolkit for React**
 
@@ -34,7 +34,7 @@ yarn add react-a11y-assist
 
 **Version Features**
 
-**v0.1** - _Higher-Order Components (HOC) like withA11y for semantic accessibility_
+**v0.1** - _Higher-Order Components (HOC) like with A11y for semantic accessibility_
 
 **v0.2** - _Hooks: useKeyboardNavigation, useRTL for enhanced keyboard support_
 
