@@ -11,7 +11,7 @@ Make your apps more inclusive with accessible components, hooks, and voice inter
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 [![Build](https://img.shields.io/github/workflow/status/manish3299/react-a11y-assist/CI)](https://github.com/manish3299/react-a11y-assist/actions)
-
+Make your apps more inclusive with accessible components, hooks, and voice interaction support — all in one lightweight library.
 ---
 
 ## 🚀 Quick Start
